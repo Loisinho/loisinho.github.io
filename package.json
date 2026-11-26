@@ -14,11 +14,16 @@
     "lint": "run-s \"lint:*\"",
     "lint:oxlint": "oxlint . --fix",
     "lint:eslint": "eslint . --fix --cache",
+    "lint:check": "run-s \"lint:*:check\"",
+    "lint:oxlint:check": "oxlint .",
+    "lint:eslint:check": "eslint . --cache",
     "format": "prettier --write --experimental-cli src/",
     "format:check": "prettier --check --experimental-cli ."
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.3.5",
     "pinia": "^4.0.3",
+    "tailwindcss": "^4.3.5",
     "vue": "^3.5.42",
     "vue-router": "^5.3.1"
   },
