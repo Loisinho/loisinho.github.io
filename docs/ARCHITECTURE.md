@@ -36,7 +36,7 @@ tests/
 ## Routes
 
 - `/` redirects to `/es`.
-- `/es`, `/en`, `/en/about`, `/en/experience`, `/en/skills`, `/en/projects`, `/en/projects/:slug`, `/en/contact`.
+- `/:locale(es|en)?` and its child routes `about`, `experience`, `skills`, `projects`, `projects/:slug`, `contact`.
 - Unknown routes display a localized 404 page.
 
 ## Internationalization

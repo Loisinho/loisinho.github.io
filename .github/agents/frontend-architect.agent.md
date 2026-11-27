@@ -1,5 +1,5 @@
 ---
-name: frontend-architect
+name: Frontend Architect
 description: High-level architect that analyzes the codebase and outputs a step-by-step implementation plan without editing files.
 tools: [read, search, vscode/usages, vscode/problems]
 model: auto
