@@ -9,8 +9,8 @@
 
 ## Phase 1 — Application Framework
 
-- Configure Vue Router with the initial routes.
 - Configure Vue I18n.
+- Configure Vue Router with the initial routes.
 - Implement the layout, navigation and footer.
 - Implement light/dark theme support with persistence.
 - Define visual tokens, typography and breakpoints.
